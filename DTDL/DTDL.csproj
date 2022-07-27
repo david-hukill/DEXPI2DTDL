@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="EquipmentAttributes.cs" />
+    <Compile Remove="Extensions.cs" />
+    <Compile Remove="PipingComponentAttributes.cs" />
+    <Compile Remove="PipingSegmentAttributes.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Extensions\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DEXPI\DEXPI.csproj" />
+  </ItemGroup>
+
+</Project>
